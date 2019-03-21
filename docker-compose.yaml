@@ -4,7 +4,7 @@ services:
   apache:
     image: 'bitnami/apache:latest'
     ports:
-      - '81:8080'
-      - '443:8443'
+      - '8080:8080'
+      - '6443:8443'
     volumes:
       - ./app:/app
